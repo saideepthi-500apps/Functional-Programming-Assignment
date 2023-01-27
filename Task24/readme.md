@@ -34,4 +34,6 @@ const partialFn = impartial.bind(this, 1, 2);
 partialFn(10); // 13
 Fill in the body of the add function so it uses currying to add parameters x, y, and z.
 
+url:https://drive.500apps.com/8175d2ea
+
 

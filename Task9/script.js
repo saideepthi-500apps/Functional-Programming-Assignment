@@ -128,7 +128,6 @@ let ratingArray = watchList.filter(item=>{
 
 // Only change code above this line
 
-// console.log(filteredList);
 function getOutput() {
-  document.getElementById("output").innerText = filteredList;
+  document.getElementById("output").innerText = JSON.stringify(filteredList);
 }
